@@ -19,7 +19,7 @@ let D1 = new development("TypeScript")
 let D2 = new development("JavaScript ")
 console.log(D1)
 
-// Type Assertion
+// Type Assertion -> we define that you can assume a as a string
 
 let a : any = 12;
 (a as string)
